@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="assets/css/combined.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/a61200a6ee.js" crossorigin="anonymous"></script>
+	
+    <script> 
+    	var loc = window.location.href+'';
+	if (loc.indexOf('http://')==0){
+	window.location.href = loc.replace('http://','https://');
+	}
+    </script>
 </head>
 <body>
     <header class="nk-header">
